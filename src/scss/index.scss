@@ -1,0 +1,28 @@
+@import 'common.scss';
+.wrapper{
+    width: 100%;
+    height: 100%;
+    padding-top: pxTorem(100px);
+}
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    
+    button{
+        width: 70%;
+        height: pxTorem(44px);
+        border-radius: pxTorem(44px);
+        border:2px solid red;
+        text-align: center;
+        margin:pxTorem(15px) auto;
+        font-size: pxTorem(18px);
+        color: red;
+        line-height: pxTorem(44px);
+    }
+}
+.youke{
+    text-align: center;
+    text-decoration: underline;
+}
